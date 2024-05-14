@@ -4,6 +4,12 @@ Certainly! Here's a `README.md` file for the provided code:
 
 This Python script implements image compression using the K-Means clustering algorithm. It takes an input image and reduces the number of unique colors (clusters) in the image, thus compressing the image while preserving its visual content.
 
+## Dependencies
+- NumPy
+- OpenCV (cv2)
+- Matplotlib
+
+
 ## How it Works
 
 The image compression process involves the following steps:
@@ -26,14 +32,9 @@ The image compression process involves the following steps:
 
 4. **Output**: The compressed image will be displayed and saved as `output.jpg` in the same directory.
 
-## Example
-
-```bash
-python image_compression.py
-```
-
-## Dependencies
-
-- NumPy
-- OpenCV (cv2)
-- Matplotlib
+## Results
+Results of 16 clusters over 100 iterations are shown below
+### Original image
+![input](image.jpg)
+### Compresed image
+![output](output.jpg)
