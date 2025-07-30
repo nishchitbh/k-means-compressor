@@ -1,5 +1,3 @@
-Certainly! Here's a `README.md` file for the provided code:
-
 # Image Compression using K-Means Clustering
 
 This Python script implements image compression using the K-Means clustering algorithm. It takes an input image and reduces the number of unique colors (clusters) in the image, thus compressing the image while preserving its visual content.
