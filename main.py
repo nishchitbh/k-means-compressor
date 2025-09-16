@@ -94,7 +94,7 @@ class KMeans:
 img = cv2.imread("image.jpg")
 
 # Initialize KMeans object and perform compression
-kmeans = KMeans(img, 16, 20)
+kmeans = KMeans(img, 16, 100)
 compressed_image = kmeans.compress()
 
 # Display compressed image
